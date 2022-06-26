@@ -1,0 +1,6 @@
+[submodule "Eclectic"]
+	path = Eclectic
+	url = https://github.com/hugoinaction/Eclectic
+[submodule "themes/Eclectic"]
+	path = themes/Eclectic
+	url = https://github.com/hugoinaction/Eclectic
