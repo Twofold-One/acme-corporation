@@ -1,7 +1,7 @@
 baseURL: https://twofold-one.github.io/acme-corporation
 languageCode: en-us
 title: Acme Corporation
-theme: Universal-master
+theme: Eclectic
 author:
   facebook: "https://facebook.com/example"
   twitter: "https://twitter.com/example"
@@ -10,7 +10,6 @@ author:
   location: New York
   phone: (999) 999-9999
   hours: "**Mon-Fri:** 9:00AM - 6:00PM, ET"
-
 menu:
   main:
     - identifier: about
@@ -34,12 +33,13 @@ params:
         all. Browse through our collection of various
         forms with different thicknesses and line styles.
         We shape the world. You live in it.
+
     - title: Recent Blog Posts
       recents: blog
       recentCount: 7
     - title: Contact Us
       contact: true
-      style: blue
+  style: blue
   logo: /image/logo.png
   logo_small: /image/logo.png
   about_us: >
@@ -49,5 +49,13 @@ params:
     our collection of various forms with different
     thicknesses and line styles. We shape the world.
     You live in it.
+
   recent_posts:
     enable: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+enableEmoji: true
