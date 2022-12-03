@@ -1,8 +1,15 @@
+---
+menu:
+  footer:
+    name: Privacy Policy
+    weight: 300
+---
+
 # Privacy Policy
 
-**Last updated August 19, 2019**
+Last updated **August 19, 2019**
 
-Thank you for choosing to be part of our community at _Acme Corporation TM (“Company”, “we”, “us”, or “our”)_. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice or our practices with regard to your personal information, please contact us at contact@example.org.
+Thank you for choosing to be part of our community at _Acme Corporation&trade;_ (_“Company”_, _“we”_, _“us”_, or _“our”_). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice or our practices with regard to your personal information, please contact us at [contact@example.org](mailto:contact@example.org).
 
 When you visit our website -- https://hugoinaction.com and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we describe our privacy notice. We seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue the use of our Sites and our services.
 
@@ -12,9 +19,9 @@ Please read this privacy notice carefully, as it will help you make informed dec
 
 ## WHAT INFORMATION DO WE COLLECT?
 
-**_Information automatically collected_**
+Information automatically collected
 
-Some information – such as IP address and/or browser, and device characteristics – is collected automatically when you visit our Services.
+**_Some information – such as IP address and/or browser, and device characteristics – is collected automatically when you visit our Services._**
 
 We automatically collect certain information when you visit, use or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser, and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services and other technical information. This information is primarily needed to maintain the security and operation of our Services and for our internal analytics and reporting purposes.
 
@@ -108,7 +115,7 @@ California Civil Code Section 1798.83, also known as the “Shine The Light” l
 
 If you are under 18 years of age, reside in California, and have a registered account with the Services, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services, but please be aware that the data may not be completely or comprehensively removed from our systems.
 
-## DO WE MAKE UPDATES TO THIS POLICY?----
+## DO WE MAKE UPDATES TO THIS POLICY?
 
 **_Yes, we will update this policy as necessary to stay compliant with relevant laws._**
 
@@ -116,8 +123,7 @@ We may update this privacy notice from time to time. The updated version will be
 
 ## HOW CAN YOU CONTACT US ABOUT THIS POLICY?
 
-If you have questions or comments about this policy, you may contact our Data Protection Officer (DPO), DPO Sample, by email at dpo@exmaple.org, by phone at [(999)999-9999](<(999)999-9999>), or by post to:
+If you have questions or comments about this policy, you may contact our Data Protection Officer (DPO), DPO Sample, by email at [dpo@exmaple.org](mnailto:dpo@exmaple.org), by phone at [(999)999-9999](tel:9999999999), or by post to:
 
 Acme Corporation
-
 Data Protection Officer
