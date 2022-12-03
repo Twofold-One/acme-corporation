@@ -1,4 +1,5 @@
-# Markdown
+Markdown
+===========
 
 I am a paragraph in markdown with line
 wrapping so fit in this width.
@@ -6,6 +7,7 @@ I am a continuation of the first paragraph
 as there is no empty line before me.
 
 I am in the second paragraph.
+
 
 I am the third one. Even though there are
 two line breaks before me, this does not
@@ -16,53 +18,42 @@ I am not a new paragraph, I do start on a
 new line due to the manual line break via
 spaces before the newline character.
 
-# Top Level H1
-
-## H2
+Top Level H1
+=============
+H2
+---
 
 #Just a tag
 \# Not a heading
 Also a # tag.
-
 # Alternate H1
-
 ## Alternate H2
-
 ### H3
-
 ###### H6
 
-- This is a list element
-
-* This is also a list element
-
+* This is a list element
++ This is also a list element
 - This is also a list element
-  - This is a sublist element
-  * Also a sublist element
-    - Sublist level 2
-    1.  Numbered sublist
-    2.  Next item
-        1.  Next indent level
+     - This is a sublist element
+     + Also a sublist element
+       + Sublist level 2
+       1. Numbered sublist
+       2. Next item
+             1. Next indent level
 
-1. Numbered list
-2. Next item
-   1. Next indent level
-      - Sublist non numbered
-
-3) Back
+1) Numbered list
+2) Next item
+     1. Next indent level
+        * Sublist non numbered
+3. Back
 
 Horizontal Lines:
 
----
-
+------------------------------------
 .
-
----
-
+***********************************
 .
-
----
-
+***
 .
 
 ---
@@ -73,13 +64,13 @@ Horizontal Lines:
 
 ## Inline formatting
 
-_Italics_
+*Italics*
 
 _Italics_
 
-**Bold**
+__Bold__
 
-**_Bold+Italics_**
+__*Bold+Italics*__
 
 **_Bold+Italics_**
 
@@ -105,6 +96,7 @@ Sample inline code `a++` can be specified here.
 
 ![Alt Text](/path/to/image "Optional Tooltip")
 
+
 ## HTML escaped characters and inline HTML
 
 Copyright: &copy;
@@ -127,27 +119,29 @@ Floating image via HTML: <img src="/image/logo.png" style="float: right; padding
 
 ## Tables, code blocks and task lists
 
-| Name  | Job              |
-| ----- | ---------------- |
-| Alex  | Web Developer    |
-| Bob   | Sys Admin        |
-| Gabby | Technical Writer |
+   Name | Job
+--------|------
+   Alex | Web Developer
+    Bob | Sys Admin
+   Gabby| Technical Writer
+
 
 ### Alternate table
 
-| Name  | Mantra                                |
-| ----- | ------------------------------------- |
-| Alex  | There must be a better way.           |
-| Bob   | Play it safe.                         |
+
+|  Name | Mantra |
+|  ---  | --- |
+| Alex  | There must be a better way. |
+| Bob   | Play it safe. |
 | Gabby | Try everything, but do what you like. |
 
 ### Table alignment
 
-| Index | Product | Edges |
-| ----: | :------ | :---: |
-|    1. | Circle  |   0   |
-|    2. | Line    |   1   |
-|    3. | Square  |   4   |
+| Index |  Product | Edges |
+| --:   |  :--  | :-: |
+| 1.  | Circle  | 0 |
+| 2.  | Line   | 1 |
+| 3.  | Square | 4 |
 
 ## Acme website task list
 
@@ -160,7 +154,7 @@ Floating image via HTML: <img src="/image/logo.png" style="float: right; padding
 ## Code block
 
 ```javascript
-var x = 10;
+var x= 10;
 x++;
 console.log(x);
 ```
@@ -178,7 +172,6 @@ while (!success) {
 ```
 
 ## Direct Emojis
-
 Smile please :smile:
 
 I :heart: Hugo
@@ -195,6 +188,7 @@ This is followed by ellipses ...
 
 ## This is extra highlighted{style="background: yellow"}
 
+
 ## Definition Lists
 
 Alex
@@ -208,3 +202,39 @@ Bob
 Gabby
 : Cool Content Master
 : Cautious
+
+## Shortcodes
+
+*Youtube*
+{{< youtube nLAVanlu5js >}}
+
+
+*Highlight*
+{{< highlight js "linenos=table,hl_lines=3-4,linenostart=1080" >}}
+// Enjoy your work
+if (!tired()) {
+    keepCoding();
+} else {
+    drinkCoffee();
+}
+{{</ highlight >}}
+
+{{< highlight html "linenos=table,hl_lines=2 ,linenostart=1080" >}}
+<!-- Generated Youtube source code for video -->
+{{</* youtube nLAVanlu5js */>}}
+<!-- Output -->
+{{< youtube nLAVanlu5js >}}
+{{</ highlight >}}
+
+
+## Inline shortcodes.
+
+### Inline Shortcode declaration and first use
+{{% reuse.inline %}}A programmer's wife sends him to the grocery with instructions: **Get a loaf of bread and if they have eggs, get a dozen**. He came back with a dozen loafs of bread: **They had eggs.**
+{{% /reuse.inline %}}
+
+### Shortcode usage as HTML
+{{< reuse.inline />}}
+
+### Shortcode usage as Markup
+{{% reuse.inline /%}}

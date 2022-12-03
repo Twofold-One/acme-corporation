@@ -1,3 +1,11 @@
+---
+menu:
+  footer:
+    name: Credits
+    identifier: credits
+    weight: 400
+---
+
 # Credits
 
 This website uses resources from a variety of places. Here is to all of them:
